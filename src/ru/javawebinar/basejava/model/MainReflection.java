@@ -15,7 +15,6 @@ public class MainReflection {
 //        System.out.println("field.get(r).toString() " + field.get(r).toString());
 //        System.out.println(r);
 
-        //TODO:В MainReflection сделайте вызов метода toString через отражение, и выведите результат
         Method method = r.getClass().getDeclaredMethod("toString");
         System.out.println("method " + method);
         //method.setAccessible(true);
