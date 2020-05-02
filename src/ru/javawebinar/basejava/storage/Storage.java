@@ -1,7 +1,7 @@
 package ru.javawebinar.basejava.storage;
 
 import ru.javawebinar.basejava.model.Resume;
-
+//TODO refactoring
 public interface Storage {
 
     void clear();
@@ -15,6 +15,7 @@ public interface Storage {
     void delete(String uuid);
 
     Resume[] getAll();
+    //List<Resume> getAllSorted
 
     int size();
 }
