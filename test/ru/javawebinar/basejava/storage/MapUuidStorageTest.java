@@ -1,18 +1,8 @@
 package ru.javawebinar.basejava.storage;
 
-import org.junit.Test;
+public class MapUuidStorageTest extends AbstractStorageTest {
 
-public class MapUuidStorageTest {
-
-    @Test
-    public void fillDeletedElement() {
-    }
-
-    @Test
-    public void insertElement() {
-    }
-
-    @Test
-    public void getIndex() {
+    public MapUuidStorageTest() {
+        super(new MapUuidStorage());
     }
 }
